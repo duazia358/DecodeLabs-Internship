@@ -19,3 +19,19 @@ This project implements a Supervised Learning classification pipeline using the 
 - `notebooks/`: Jupyter Notebook containing code execution
 - `requirements.txt`: Environment dependencies
 - `README.md`: Project overview and results
+- ---
+
+## Project 3: AI Recommendation Engine (Content-Based Filtering)
+
+### Overview
+Developed a content-based recommendation engine using TF-IDF vectorization and Cosine Similarity to match user technical skills to relevant career paths. The pipeline processes multi-variable inputs and provides real-time match accuracy scores while gracefully handling Cold Start scenarios.
+
+### Technical Implementation
+* **Vectorization:** Implemented `TfidfVectorizer` to map text feature spaces into high-dimensional numerical arrays.
+* **Similarity Mathematics:** Calculated angular orientation using `cosine_similarity` to rank top 3 matching roles based on vector direction.
+* **Cold Start Handling:** Configured input validation to trigger popular role fallback suggestions whenever fewer than 3 skills are provided.
+
+### Key Results
+* **Input Test Case:** `['Python', 'Machine Learning', 'Deep Learning']`
+* **Top Output Match:** AI/ML Engineer (74.22% Match Score)
+* **Secondary Match:** Data Scientist (39.98% Match Score)
