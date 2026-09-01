@@ -1,3 +1,25 @@
+# DecodeLabs AI Internship Projects
+
+Welcome to my project showcase repository for the DecodeLabs AI Internship.
+
+---
+
+## Project 1: Rule-Based AI Chatbot with Graphical User Interface
+
+### Overview
+Built an interactive rule-based conversational desktop application using Python and Tkinter. The chatbot leverages Regular Expression (`re`) pattern matching for intent recognition, dynamic response synthesis, and automated logging.
+
+### Technical Implementation
+* **User Interface:** Designed a custom Tkinter desktop window featuring chat history displays, scrollable frames, and styled entry widgets.
+* **Regex Engine:** Implemented pattern-matching rules to handle natural language queries, greetings, and multi-turn conversations.
+* **Logging System:** Added file handling mechanisms to log session interactions for auditability.
+
+### Key Features
+* Custom GUI built with Tkinter
+* Intent recognition via regex string matching
+* Session logging and graceful fallback handling for unknown inputs
+
+---
 # Project 2: Data Classification Using AI
 
 ## Overview
